@@ -5,7 +5,7 @@ File Name: styles.css
 /*
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h2 {
+body, header, nav, main, footer, img, h1, {
 margin: 0;
 padding: 0;
 border: 0;
@@ -35,7 +35,7 @@ header h1 {
 /* style rule for navigation area */
 nav {
   background-color: #2alf14;
-
+font-family:
 }
 nav ul {
   list-style-type:none;
@@ -52,7 +52,6 @@ nav li {
 }
 nav li a {
   display: block;
-  color: #f6eee4;
   text-align: center;
   padding: 0.5em 2em;
   text-decoration: none;
@@ -68,29 +67,12 @@ main p {
   font-size: 1.25em;
 
 }
-main h2 {
+main h1 {
   padding-top: 2%;
 
 }
 main ul {
   list-style-type: square;
-
-}
-.link {
-  color: #4d3319;
-  text-decoration: none;
-  font-weight: bold;
-  font-style: italic;
-
-}
-.action {
-  font-size: 1.75em;
-  text-align: center;
-  font-weight: bold;
-
-}
-.id {
-  text-align: center;
 
 }
 /* style rules for footer content */
