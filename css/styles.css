@@ -1,5 +1,5 @@
 /*
-Author:  Derrick Davis
+Author:  Derrick Davis, Christian Morgan,Theodore Petrides
 Date: 9/27/2022
 File Name: styles.css
 /*
@@ -35,7 +35,7 @@ header h1 {
 /* style rule for navigation area */
 nav {
   background-color: #2alf14;
-font-family:
+
 }
 nav ul {
   list-style-type:none;
