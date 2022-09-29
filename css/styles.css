@@ -1,0 +1,107 @@
+/*
+Author:  Derrick Davis
+Date: 9/27/2022
+File Name: styles.css
+/*
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2 {
+margin: 0;
+padding: 0;
+border: 0;
+
+}
+/*style rule for body and images */
+img {
+  max-width: 100%;
+  display: block;
+
+}
+body {
+  background-color: #f6eee4;
+
+}
+/* style rule for header content */
+header {
+  text-align: center;
+  font-size: 3em;
+  color: #373684;
+
+}
+header h1 {
+  font-style:italic;
+
+}
+/* style rule for navigation area */
+nav {
+  background-color: #2alf14;
+
+}
+nav ul {
+  list-style-type:none;
+  margin: 0;
+  text-align: center;
+
+}
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: Geneva,Arial,sans-serif;
+  font-weight: bold;
+
+}
+nav li a {
+  display: block;
+  color: #f6eee4;
+  text-align: center;
+  padding: 0.5em 2em;
+  text-decoration: none;
+
+}
+/* style rule for main content */
+main {
+  padding: 2%;
+  font-family: Verdanaq, Arial, sans-serif;
+
+}
+main p {
+  font-size: 1.25em;
+
+}
+main h2 {
+  padding-top: 2%;
+
+}
+main ul {
+  list-style-type: square;
+
+}
+.link {
+  color: #4d3319;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+
+}
+.action {
+  font-size: 1.75em;
+  text-align: center;
+  font-weight: bold;
+
+}
+.id {
+  text-align: center;
+
+}
+/* style rules for footer content */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #2a1f14;
+  padding: 1% 0%;
+
+}
+footer a {
+  color:#f3e6d8;
+  text-decoration: none;
+}
